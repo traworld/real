@@ -1,10 +1,7 @@
 module.exports = {
   root: true,
-  extends: ['plugin:@next/next/recommended', '@payloadcms'],
-  ignorePatterns: ['**/payload-types.ts'],
-  plugins: ['prettier'],
+  extends: '@react-native-community',
   rules: {
-    'prettier/prettier': ['error', { endOfLine: 'auto' }],
-    'no-console': 'off',
+    'prettier/prettier': 0,
   },
-}
+};
