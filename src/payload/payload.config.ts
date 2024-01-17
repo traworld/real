@@ -40,6 +40,9 @@ dotenv.config({
 })
 
 export default buildConfig({
+
+  
+
   admin: {
     user: Users.slug,
     bundler: webpackBundler(), // bundler-config
@@ -82,6 +85,7 @@ export default buildConfig({
   // database-adapter-config-end
   serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL,
   collections: [Pages, Products, Orders, Media, Categories, Users],
+  
   globals: [Settings, Header, Footer],
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),

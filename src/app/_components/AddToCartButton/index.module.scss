@@ -2,6 +2,12 @@
   visibility: visible;
   opacity: 1;
   transition: opacity 100ms linear;
+  background-color: black;
+  color: white;
+  // &.primary {
+  //   background-color: blue; // Change this to your desired color
+  //   color: black; // Change this to your desired color
+  // }
 }
 
 .green {

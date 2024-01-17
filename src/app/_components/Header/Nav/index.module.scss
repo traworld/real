@@ -10,7 +10,7 @@
   visibility: visible;
 
   > * {
-    text-decoration: none;
+    text-decoration:none;
   }
 }
 
@@ -18,3 +18,15 @@
   opacity: 0;
   visibility: hidden;
 }
+
+.loginButton {
+  // Your existing styles...
+
+  &.primary {
+    background-color:white; // Change this to your desired color
+    color: black; // Change this to your desired color
+  }
+
+  // Add more styles for other appearance types if needed...
+}
+

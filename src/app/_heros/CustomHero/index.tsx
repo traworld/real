@@ -25,7 +25,7 @@ export const Customhero: React.FC<Page['hero']> = ({ richText, media, links }) =
           <ul className={classes.links}>
             {links.map(({ link }, i) => {
               return (
-                <li key={i}>
+                <li key={i} className={classes.shopNow}>
                   <CMSLink {...link} />
                 </li>
               )

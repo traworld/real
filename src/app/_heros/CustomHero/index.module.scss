@@ -38,6 +38,7 @@
   justify-content: center;
   padding: 15% var(--gutter-h);
   width: 100%;
+  
 
   @include mid-break {
     padding: 10% 30px;
@@ -66,6 +67,7 @@
 
   p {
     font-size: 30px;
+    
 
     @include mid-break {
       font-size: 24px;
@@ -89,4 +91,13 @@
   & > * {
     margin: calc(var(--base) / 2);
   }
+}
+
+.shopNow{
+
+  
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+    
 }

@@ -38,7 +38,7 @@ const navItems = footer?.navItems || [];
         <Gutter>
           <div className={classes.wrap}>
             <Link href="/">
-            <Image src="/image.svg" alt="logo" width={170} height={50}/>
+            <Image src="/image.png" alt="logo" width={170} height={50}/>
             </Link>
             <p>{footer.copyright}</p>
 
